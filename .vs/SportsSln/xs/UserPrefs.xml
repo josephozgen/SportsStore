@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{6C858435-D7E5-4E58-B7E2-3B8EBC3CC487}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportsStore/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="SportsStore/Controllers/HomeController.cs" Line="37" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SportsSln" expanded="True">
+            <Node name="SportsStore" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SportsStore PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
