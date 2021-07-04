@@ -16,6 +16,7 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\NavigationMenu\" />
     <Folder Include="Pages\" />
+    <Folder Include="Views\Shared\Components\CartSummary\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,5 +25,8 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Shared\Components\CartSummary\" />
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wHceux+BBgGm09JWwyve4psX04GRfyO0Ck42ShUB7xU0O1wmO4mgErR1YFkaG0ni0jH8NVNqdeUk8x1ak6FQTw==",
+  "dgSpecHash": "OdkC742Gdyz9MFKqIjWrVSm95b1Yqch9LklF5YyAxgsKe297Lc53Z+aO9zIxFu9JBAt734Qr2dNa2+HLcj1H5A==",
   "success": true,
-  "projectFilePath": "/Users/yusufozgen/Desktop/SoftwareDevelopment/Projects/SportsSln/SportsStore/SportsStore.csproj",
+  "projectFilePath": "/Users/yusufozgen/Desktop/SoftwareDev/Projects/SportsSln/SportsStore/SportsStore.csproj",
   "expectedPackageFiles": [
     "/Users/yusufozgen/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/Users/yusufozgen/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

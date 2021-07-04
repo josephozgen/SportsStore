@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yusufozgen/Desktop/SoftwareDevelopment/Projects/SportsSln/SportsStore/SportsStore.csproj": {}
+    "/Users/yusufozgen/Desktop/SoftwareDev/Projects/SportsSln/SportsStore/SportsStore.csproj": {}
   },
   "projects": {
-    "/Users/yusufozgen/Desktop/SoftwareDevelopment/Projects/SportsSln/SportsStore/SportsStore.csproj": {
+    "/Users/yusufozgen/Desktop/SoftwareDev/Projects/SportsSln/SportsStore/SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yusufozgen/Desktop/SoftwareDevelopment/Projects/SportsSln/SportsStore/SportsStore.csproj",
+        "projectUniqueName": "/Users/yusufozgen/Desktop/SoftwareDev/Projects/SportsSln/SportsStore/SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "/Users/yusufozgen/Desktop/SoftwareDevelopment/Projects/SportsSln/SportsStore/SportsStore.csproj",
+        "projectPath": "/Users/yusufozgen/Desktop/SoftwareDev/Projects/SportsSln/SportsStore/SportsStore.csproj",
         "packagesPath": "/Users/yusufozgen/.nuget/packages/",
-        "outputPath": "/Users/yusufozgen/Desktop/SoftwareDevelopment/Projects/SportsSln/SportsStore/obj/",
+        "outputPath": "/Users/yusufozgen/Desktop/SoftwareDev/Projects/SportsSln/SportsStore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yusufozgen/.config/NuGet/NuGet.Config"
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

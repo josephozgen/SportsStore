@@ -257,7 +257,19 @@ appear in different places in an application.
 Add a razor View called productSummary.cshtml to the Views/Shared folder.
 Add line <partial name="ProductSummary" model="p" /> in Index.cshtml
 
-
-
-
+*****######################################################################*****
+9. COMPLETING THE CART
+*****######################################################################*****
+Cart Razor Page has the responsibility for managing the persistence of the Cart
+class. Cart Razor Page has to deal with getting and storing Cart objects as session data
+Services are commonly used to hide details of how interfaces are implemented from the
+components that depend on them.
+Apply virtual keyword in Cart.cs file.
+Add SessionCart.cs to the Models folder
+Using services simplifies testing process and makes it much easier to provide  
+the class being tested with its dependencies.
+Add a widget that summarizes the contents of the cart
+libman install font-awesome@5.12.0 -d wwwroot/lib/font-awesome
+Add CartSummaryViewComponent.cs in the Components folder.
+Add the CartSummary in the _Layout.cshtml
 

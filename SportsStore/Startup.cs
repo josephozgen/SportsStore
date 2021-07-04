@@ -35,6 +35,15 @@ namespace SportsStore
             });
             services.AddScoped<IStoreRepository, EFStoreRepository>();
             services.AddRazorPages();
+            // Set up the in-memory data store.
+            services.AddDistributedMemoryCache();
+            // Register the services used to access session data.
+            services.AddSession();
+            // The same object should be used to satisfy related requests for Cart instances.
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            // The same object should always be used. This service is required so we can
+            // access the current session in the SessionCart class.
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +55,9 @@ namespace SportsStore
                 app.UseStatusCodePages();
                 app.UseStaticFiles();
             }
+            // Allows the session system to automatically associate requests with sessions
+            // when they arrive from the client
+            app.UseSession();
 
             app.UseRouting();
 
