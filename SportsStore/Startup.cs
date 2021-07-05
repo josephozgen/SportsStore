@@ -34,6 +34,7 @@ namespace SportsStore
                     Configuration["ConnectionStrings:SportsStoreConnection"]);
             });
             services.AddScoped<IStoreRepository, EFStoreRepository>();
+            services.AddScoped<IOrderRepository, EFOrderRepository>();
             services.AddRazorPages();
             // Set up the in-memory data store.
             services.AddDistributedMemoryCache();

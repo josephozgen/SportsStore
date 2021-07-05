@@ -17,6 +17,7 @@
     <Folder Include="Views\Shared\Components\NavigationMenu\" />
     <Folder Include="Pages\" />
     <Folder Include="Views\Shared\Components\CartSummary\" />
+    <Folder Include="Views\Order\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,5 +29,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Shared\Components\CartSummary\" />
+    <None Remove="Views\Order\" />
   </ItemGroup>
 </Project>
