@@ -18,6 +18,7 @@
     <Folder Include="Pages\" />
     <Folder Include="Views\Shared\Components\CartSummary\" />
     <Folder Include="Views\Order\" />
+    <Folder Include="Pages\Admin\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,5 +31,6 @@
   <ItemGroup>
     <None Remove="Views\Shared\Components\CartSummary\" />
     <None Remove="Views\Order\" />
+    <None Remove="Pages\Admin\" />
   </ItemGroup>
 </Project>

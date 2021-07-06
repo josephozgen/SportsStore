@@ -277,3 +277,8 @@ Extend the database with "dotnet ef migrations add Orders"
 Resetting the database: dotnet ef database drop --force --context StoreDbContext
 dotnet ef database update --context StoreDbContext
 
+*****######################################################################*****
+10. ADMINISTRATION
+*****######################################################################*****
+Blazor requires its own imports file to specify the namespaces that it uses.
+
